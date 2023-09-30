@@ -265,7 +265,6 @@
             "Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit>",
             "Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit>",
             "Consumes [1] [Trade Route]",
-            "Only available <in cities without a [~CS]>",
             "Uncapturable"
         ],
         "promotions": ["Ignore terrain cost"],
@@ -281,7 +280,6 @@
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit>",
             "Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit>",
             "Consumes [1] [Trade Route]",
-            "Only available <in cities without a [~CS]>",
             "Uncapturable"
         ],
         "requiredTech": "Sailing"
