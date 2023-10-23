@@ -5,7 +5,7 @@
         "faith": 1,
         "culture": 4,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "Hidden when religion is disabled"
         ]
     },
@@ -15,7 +15,7 @@
         "faith": 3,
         "happiness": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "Hidden when religion is disabled"
         ]
     },
@@ -24,7 +24,7 @@
         "culture": 1,
         "happiness": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "[10]% Food is carried over after population increases [in this city]",
             "Hidden when religion is disabled"
         ]
@@ -35,7 +35,7 @@
         "faith": 5,
         "happiness": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "Hidden when religion is disabled"
         ]
     },
@@ -45,7 +45,7 @@
         "faith": 2,
         "production": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "[+15]% Production when constructing [All] buildings [in this city]",
             "Hidden when religion is disabled"
         ]
@@ -55,7 +55,7 @@
         "faith": 1,
         "happiness": 1,
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "[+15]% [Gold] [in this city]",
             "Hidden when religion is disabled"
         ]
@@ -63,7 +63,7 @@
     {
         "name": "Mandir",
         "uniques": [
-            "Unbuildable",
+            "Unbuildable","Unsellable",
             "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
             "Hidden when religion is disabled"
         ]
@@ -75,26 +75,31 @@
         "culture": 2,
         "faith": 1,
         "specialistSlots": {"Artist": 1},
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Writing Auditorium",
         "culture": 2,
         "faith": 1,
         "specialistSlots": {"Writer": 1},
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Vocal Chamber",
         "culture": 2,
         "faith": 1,
         "specialistSlots": {"Musician": 1},
-        "uniques": ["Unbuildable"]
+        "uniques": ["Unbuildable","Unsellable"]
     },
     {
         "name": "Fine Art Specialist",
+        "culture": 1,
+        "happiness": 1,
         "specialistSlots": {"Artist": 1, "Writer": 1,"Musician": 1},
-        "uniques": ["Unbuildable"]
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "Never destroyed when the city is captured"
+        ]
     },
     /*{
         "name": "~limit",
@@ -168,13 +173,19 @@
         "cityStrength": 7,
         "cityHealth": 50,
         "hurryCostModifier": 25,
-        "uniques": ["Unsellable", "Unbuildable"]
+        "uniques": [
+            "Unsellable", "Unbuildable",
+            "Cannot be purchased"
+    ]
     },
     {
         "name": "Castle Builders",
         "cityStrength": 5,
         "uniqueTo": "Normandy",
-        "uniques": ["Unsellable", "Unbuildable"]
+        "uniques": [
+            "Unsellable", "Unbuildable",
+            "Cannot be purchased"
+        ]
     },
     {
         "name": "Ulugh Beg's Observatory",
@@ -183,18 +194,19 @@
         "percentStatBonus": {"science": 10,"production": 10,"gold": 10,"culture": 10},
         "uniques": [
             "Unsellable", "Unbuildable",
+            "Cannot be purchased",
             "Only available <in cities with a [Palace]>",
             "Destroyed when the city is captured"
         ]
     },
-    {
+    /*{
         "name": "Governor's Mansion",
         "happiness": 1,
         "uniques": [
             "Unsellable", "Unbuildable",
             "[+1] population [in this city]"
         ]
-    },
+    },*/
 
     // Ancient Era
     // Always available
@@ -973,7 +985,11 @@
     {
         "name": "Ayyubid Burial Tomb",
         "uniqueTo": "Ayyubids",
-        "uniques": ["Doubles Gold given to enemy if city is captured"],
+        "uniques": [
+            "Doubles Gold given to enemy if city is captured",
+            "Cannot be purchased",
+            "Unbuildable", "Unsellable"
+        ],
         "faith": 2,
         "happiness": 2,
         "requiredBuilding": "Shrine",
@@ -1060,8 +1076,8 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "uniques": [
-            "[Missionary] units built [in this city] can [Spread Religion] [1] extra times",
-            "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times",
+            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion",
+            "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
             "Only available <after adopting [Piety]>"
         ],
         "requiredTech": "Philosophy",
@@ -2691,9 +2707,10 @@
     },
     {
         "name": "Center of Progress",
-        "cost": 30,
+        "cost": 0,
         "isNationalWonder": true,
         "uniques": [
+            "Can be purchased with [Gold] [in all cities]",
             "Requires a [Factory] in all cities",
             "Cost increases by [30] per owned city",
             "Adopt [Ideology]"
