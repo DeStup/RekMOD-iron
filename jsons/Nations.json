@@ -2659,7 +2659,7 @@
         "name": "Vietnam",
         "leaderName": "Pham Van Dong",
         "adjective": ["Vietnamese"],
-        "startBias": ["Avoid [Coast]","Marsh","Flood plains"],
+        "startBias": ["Avoid [Coast]","Marsh"],
         "startIntroPart1": " ",
         "startIntroPart2": " ",
         "declaringWar": "Prepare for war!",
