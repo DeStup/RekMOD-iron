@@ -191,7 +191,7 @@
         "name": "Ulugh Beg's Observatory",
         "cityStrength": 5,
         "uniqueTo": "Timurids",
-        "percentStatBonus": {"science": 10,"production": 10,"gold": 10,"culture": 10},
+        "percentStatBonus": {"science": 15,"gold": 15,"culture": 15},
         "uniques": [
             "Unsellable", "Unbuildable",
             "Cannot be purchased",
@@ -314,7 +314,6 @@
             "[+1 Food] from [Bison] tiles [in this city]",
             "[+1 Food] from [Bananas] tiles [in this city]",
             "[+1 Food, +1 Gold] from [Wheat] tiles [in this city]",
-            "[+1 Gold] from [Cattle] tiles [in this city]",
             "[+1 Food, +1 Gold] from [Maize] tiles [in this city]"
         ],
         "requiredTech": "Pottery"
@@ -468,11 +467,12 @@
         "replaces": "Library",
         "uniqueTo": "Assyria",
         "hurryCostModifier": 25,
+        "science": 1,
+        "culture": 1,
         "maintenance": 1,
         "uniques": [
             "[+1 Science] per [2] population [in this city]",
             "Has 1 Great Work of Writing Slot",
-            "[+1 Culture, +1 Science] <in cities with a [Royal Library Great Writing Slot]>",
             "New [Military] units start with [15] Experience [in this city] <in cities with a [Royal Library Great Writing Slot]>"
         ],
         "requiredTech": "Writing"
@@ -1164,10 +1164,9 @@
         "name": "Baray",
         "replaces": "Garden",
         "uniqueTo": "Khmer",
-        "food": 2,
-        "faith": 2,
         "uniques": [
             "[10]% Food is carried over after population increases [in this city]",
+            "[+2 Food, +2 Faith] <after discovering [Drama and Poetry]>",
             "[+20]% Great Person generation [in this city]"
         ],
         "hurryCostModifier": 25,
