@@ -420,11 +420,11 @@
         "type": "Follower",
         "uniques": ["[+1 Production, +2 Food, +1 Gold] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
     },
-//    {
-//        "name": "Holy Warriors",
-//        "type": "Follower",
-//        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <in this city>"]
-//    },
+    {
+        "name": "Holy Warriors",
+        "type": "Follower",
+        "uniques": ["May buy [{Military} {Land} {non-[Mercenary]}] units with [Faith] for [2] times their normal Production cost <in this city>"]
+    },
     {
         "name": "Liturgical Drama",
         "type": "Follower",
