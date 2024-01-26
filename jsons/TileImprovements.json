@@ -343,27 +343,51 @@
     },
     {
         "name": "Remove Land Trade Route (Production)",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Can be built outside your borders",
             "Excluded from map editor"
         ],
-        "turnsToBuild": 1
+        "turnsToBuild": 0
     },
     {
         "name": "Remove Land Trade Route (Food)",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Can be built outside your borders",
             "Excluded from map editor"
         ],
-        "turnsToBuild": 1
+        "turnsToBuild": 0
     },
     {
         "name": "Remove Land Trade Route (Gold)",
+        "terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Marsh","Oasis"],
         "uniques": [
-            "Can be built outside your borders",
             "Excluded from map editor"
         ],
-        "turnsToBuild": 1
+        "turnsToBuild": 0
+    },
+    {
+        "name": "Remove Sea Trade Route (Production)",
+        "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+        "uniques": [
+            "Excluded from map editor"
+        ],
+        "turnsToBuild": 0
+    },
+    {
+        "name": "Remove Sea Trade Route (Food)",
+        "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+        "uniques": [
+            "Excluded from map editor"
+        ],
+        "turnsToBuild": 0
+    },
+    {
+        "name": "Remove Sea Trade Route (Gold)",
+        "terrainsCanBeBuiltOn": ["Coast","Ocean","Atoll"],
+        "uniques": [
+            "Excluded from map editor"
+        ],
+        "turnsToBuild": 0
     },
 
     // These are unique and have unique in-game checks related to them

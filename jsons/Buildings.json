@@ -199,14 +199,14 @@
             "Destroyed when the city is captured"
         ]
     },
-    /*{
+    {
         "name": "Governor's Mansion",
-        "happiness": 1,
+        "happiness": 2,
         "uniques": [
             "Unsellable", "Unbuildable",
-            "[+1] population [in this city]"
+            "[+2] population [in this city]"
         ]
-    },*/
+    },
 
     // Ancient Era
     // Always available
@@ -2549,7 +2549,6 @@
         "culture": 2,
         "specialistSlots": {"Artist": 2},
         "greatPersonPoints": {"Great Artist": 2},
-        "requiredBuilding": "Amphitheater",
         "maintenance": 3,
         "hurryCostModifier": 0,
         "requiredTech": "Industrialization",
