@@ -279,7 +279,7 @@
         "name": "Cargo Ship",
         "unitType": "Civilian Water",
         "movement": 4,
-        "cost": 90,
+        "cost": 100,
         "uniques": [
             "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
@@ -644,7 +644,7 @@
         "attackSound": "elephant"
     },
     {
-        "name": "Marathi Rider",
+        "name": "Timurid Rider",
         "replaces": "Horseman",
         "uniqueTo": "Timurids",
         "unitType": "Bomber",
@@ -652,7 +652,7 @@
         "strength": 19,
         "rangedStrength": 19,
         "range": 5,
-        "cost": 75,
+        "cost": 120,
         "requiredTech": "Chivalry",
         "requiredResource": "Horses",
         "upgradesTo": "Great War Bomber",
@@ -1097,7 +1097,7 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "Can build [Pasture] improvements on tiles",
-            "May withdraw before melee ([50]%)"
+            "Withdraws before melee combat <with [50]% chance>"
         ],
         "attackSound": "horse"
     },
@@ -1338,6 +1338,25 @@
         "attackSound": "throw"
     },
     {
+        "name": "Reislaufer",
+        "uniqueTo": "Switzerland",
+        "unitType": "Sword",
+        "movement": 3,
+        "strength": 20,
+        "cost": 120,
+        "requiredTech": "Steel",
+        "upgradesTo": "Rifleman",
+        "promotions": [
+            "Mountaineer"
+        ],
+        "uniques": [
+            "Earn [200]% of killed [Military] unit's [Strength] as [Gold]",
+            "Only available <in cities with a [Reislauder Post]>",
+            "Cannot be purchased"
+        ],
+        "attackSound": "metalhit"
+    },
+    {
         "name": "Longswordsman",
         "unitType": "Sword",
         "movement": 2,
@@ -1488,7 +1507,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "[+1] Sight",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1508,7 +1527,7 @@
         "promotions": ["Boarding Party I"],
         "uniques": [
             "[+1] Sight",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1545,7 +1564,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "[+1] Sight",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1654,7 +1673,10 @@
         "requiredTech": "Navigation",
         "upgradesTo": "Destroyer",
         "promotions": ["Coastal Raider I"],
-        "uniques": ["Can move after attacking"],
+        "uniques": [
+            //"[-33]% Strength <vs cities> <when attacking>",
+            "Can move after attacking"
+        ],
         "attackSound": "cannon"
     },
     {
@@ -1668,7 +1690,10 @@
         "requiredTech": "Navigation",
         "upgradesTo": "Destroyer",
         "promotions": ["Supply","Coastal Raider I","Boarding Party I"],
-        "uniques": ["Can move after attacking"],
+        "uniques": [
+            //"[-33]% Strength <vs cities> <when attacking>",
+            "Can move after attacking"
+        ],
         "attackSound": "cannon"
     },
     {
@@ -2091,6 +2116,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "Can move after attacking",
+            "[+33]% Strength <vs cities> <when attacking>",
             "Double movement in [Coast]",
             "Never appears as a Barbarian unit"
         ],
@@ -2108,6 +2134,7 @@
             "Can move after attacking",
             "Unable to capture cities",
             "Unable to pillage tiles",
+            "Cannot attack",
             "[+2] Sight"
         ],
         "attackSound": "machinegun"
@@ -2325,6 +2352,7 @@
     },
     {
         "name": "Pracinha",
+        "replaces": "Infantry",
         "unitType": "Gunpowder",
         "uniqueTo": "Brazil",
         "movement": 2,
@@ -2382,12 +2410,15 @@
         "name": "Machine Gun",
         "unitType": "Ranged Gunpowder",
         "range": 1,
-        "movement": 3,
+        "movement": 2,
         "strength": 50,
         "rangedStrength": 50,
         "cost": 385,
         "requiredTech": "Ballistics",
         "promotions": ["Logistics"],
+        "uniques": [
+            "[+33]% Strength <vs [Gunpowder] units>"
+        ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
         "attackSound": "machinegun"
@@ -2406,7 +2437,8 @@
         "promotions": ["Ignore terrain cost"],
         "uniques": [
             "[+25]% Strength <vs [Armored] units>",
-            "No movement cost to pillage"
+            "No movement cost to pillage",
+            "[+33]% Strength <vs [Gunpowder] units>"
         ],
         "upgradesTo": "Bazooka",
         "obsoleteTech": "Nuclear Fission",
@@ -2460,7 +2492,7 @@
             "Can see invisible [Submarine] units",
             "[100]% chance to intercept air attacks",
             "Can move after attacking",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "[+100]% Strength <vs [Submarine] units>"
         ],
         "attackSound": "shipguns"
@@ -2638,11 +2670,14 @@
         "name": "Bazooka",
         "unitType": "Ranged Gunpowder",
         "range": 1,
-        "movement": 3,
+        "movement": 2,
         "strength": 80,
         "rangedStrength": 80,
         "cost": 450,
         "requiredTech": "Nuclear Fission",
+        "uniques": [
+            "[+33]% Strength <vs [Gunpowder] units>"
+        ],
         "promotions": ["Logistics"],
         "attackSound": "machinegun"
     },
@@ -2926,7 +2961,7 @@
         "unitType": "Civilian",
         "uniques": [
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+            "Can Spread Religion <for [8] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
@@ -2950,7 +2985,7 @@
         "uniques": [
             "Empire enters a [11]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can Spread Religion <for [2] movement> <[5] times> <after which this unit is consumed>",
+            "Can Spread Religion <for [8] movement> <[5] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",

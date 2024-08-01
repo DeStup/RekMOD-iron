@@ -290,6 +290,7 @@
             "Fresh water",
             "Rare feature",
             "Only [All Road] improvements may be built on this tile",
+            "Only [All Trade Route] improvements may be built on this tile",
             "[+4] to Fertility for Map Generation",
             "Considered [Food] when determining start locations",
             "Considered [Desirable] when determining start locations"
@@ -403,7 +404,7 @@
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
             "Must be adjacent to [1] to [6] [Jungle] tiles",
-            "Grants 500 Gold to the first civilization to discover it"
+            "Grants [+500 Gold] to the first civilization to discover it"
         ],
         "weight": 2
     },
