@@ -1,7 +1,7 @@
 [
     {
         "name": "Multiplayer",
-        "modifier": 0.50,
+        "modifier": 0.67,
         /*
         Why are all of these raw values and not uniques? This is like EXACTLY what uniques are for,
         and speeds even support uniques?
@@ -20,13 +20,13 @@
         to get the uniques of the current game speed and everything works out of the box.
         -xlenstra
         */
-        "productionCostModifier": 0.50,
-        "goldCostModifier": 0.50,
+        "productionCostModifier": 0.67,
+        "goldCostModifier": 0.67,
         "scienceCostModifier": 0.50,
         "cultureCostModifier": 0.50,
-        "faithCostModifier": 0.50,
-        "improvementBuildLengthModifier": 0.50,
-        "barbarianModifier": 0.50,
+        "faithCostModifier": 0.67,
+        "improvementBuildLengthModifier": 0.67,
+        "barbarianModifier": 0.67,
         "goldGiftModifier": 1.25,
         "cityStateTributeScalingInterval": 5.0,
         "goldenAgeLengthModifier": 0.80,
