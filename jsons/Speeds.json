@@ -1,7 +1,7 @@
 [
     {
         "name": "Multiplayer",
-        "modifier": 0.67,
+        "modifier": 0.50,
         /*
         Why are all of these raw values and not uniques? This is like EXACTLY what uniques are for,
         and speeds even support uniques?
