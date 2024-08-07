@@ -20,13 +20,13 @@
         to get the uniques of the current game speed and everything works out of the box.
         -xlenstra
         */
-        "productionCostModifier": 0.67,
-        "goldCostModifier": 0.67,
+        "productionCostModifier": 0.50,
+        "goldCostModifier": 0.50,
         "scienceCostModifier": 0.50,
         "cultureCostModifier": 0.50,
-        "faithCostModifier": 0.67,
-        "improvementBuildLengthModifier": 0.67,
-        "barbarianModifier": 0.67,
+        "faithCostModifier": 0.50,
+        "improvementBuildLengthModifier": 0.50,
+        "barbarianModifier": 0.50,
         "goldGiftModifier": 1.25,
         "cityStateTributeScalingInterval": 5.0,
         "goldenAgeLengthModifier": 0.80,
