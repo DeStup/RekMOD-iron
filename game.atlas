@@ -1843,7 +1843,7 @@ NationIcons/Sumeria
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/The Moors
+NationIcons/Moors
   rotate: false
   xy: 1460, 1176
   size: 200, 200
@@ -2661,7 +2661,7 @@ NationIcons/Switzerland
   orig: 90, 90
   offset: 0, 0
   index: -1
-NationIcons/The Maya
+NationIcons/Maya
   rotate: false
   xy: 328, 596
   size: 100, 100

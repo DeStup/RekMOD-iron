@@ -540,7 +540,7 @@
     {
         "name": "Pyramid",
         "replaces": "Shrine",
-        "uniqueTo": "The Maya",
+        "uniqueTo": "Maya",
         "faith": 2,
         "science": 2,
         "cost": 40,
@@ -2038,7 +2038,7 @@
     },
     {
         "name": "Alcazaba",
-        "uniqueTo": "The Moors",
+        "uniqueTo": "Moors",
         "replaces": "Castle",
         "cityStrength": 7,
         "cityHealth": 25,

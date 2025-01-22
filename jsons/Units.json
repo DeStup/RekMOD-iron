@@ -233,7 +233,7 @@
     {
         "name": "Atlatlist",
         "replaces": "Archer",
-        "uniqueTo": "The Maya",
+        "uniqueTo": "Maya",
         "unitType": "Archery",
         "movement": 2,
         "strength": 5,
@@ -1774,7 +1774,7 @@
     },
     {
         "name": "Grenadine Cavalry",
-        "uniqueTo": "The Moors",
+        "uniqueTo": "Moors",
         "replaces": "Lancer",
         "unitType": "Mounted Ranged",
         "movement": 4,
