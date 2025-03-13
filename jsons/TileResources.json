@@ -939,7 +939,7 @@
     {
         "name": "Policies", 
         "resourceType": "Strategic",
-        "uniques": ["Not shown on world screen","Cannot be traded"]
+        "uniques": ["Cannot be traded"]
     },
     {
         "name": "Level 1 Ideology", 
