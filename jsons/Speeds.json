@@ -1,6 +1,6 @@
 [
     {
-        "name": "Multiplayer-3.16.3",
+        "name": "Multiplayer-3.16.4",
         "modifier": 0.67,
         /*
         Why are all of these raw values and not uniques? This is like EXACTLY what uniques are for,
@@ -22,7 +22,7 @@
         */
         "productionCostModifier": 0.67,
         "goldCostModifier": 0.67,
-        "scienceCostModifier": 0.55,
+        "scienceCostModifier": 0.50,
         "cultureCostModifier": 0.50,
         "faithCostModifier": 0.67,
         "improvementBuildLengthModifier": 0.67,
