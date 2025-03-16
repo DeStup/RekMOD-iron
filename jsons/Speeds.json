@@ -1,6 +1,6 @@
 [
     {
-        "name": "Multiplayer-3.16.4",
+        "name": "Multiplayer-iron-3.16.4",
         "modifier": 0.67,
         /*
         Why are all of these raw values and not uniques? This is like EXACTLY what uniques are for,
@@ -46,7 +46,7 @@
         ]
     },
     {
-        "name": "Solo",
+        "name": "Solo-iron",
         "modifier": 0.67,
         /*
         Why are all of these raw values and not uniques? This is like EXACTLY what uniques are for,
