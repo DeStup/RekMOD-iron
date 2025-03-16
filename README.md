@@ -5,12 +5,14 @@ https://docs.google.com/document/d/18tsjg2C1wKA7I41GktDRr6R83eUrhn4FHi9EUEtpKvI/
 
 # RekMOD-iron
 Mod changes by DeStup:
+
+- NEW Multiplayer speed (scienceCostModifier and cultureCostModifier 0.50/0.50)
+- NEW Solo speed (scienceCostModifier and cultureCostModifier 0.50/0.50), use it for solo games.
+
 - removed barbarian bonus on King+
 - religionLimitMultiplier 1 > 0.5 and religionLimitBase 0 -> 1
-- added Multiplayer speed (scienceCostModifier and cultureCostModifier 0.55/0.50)
 - rebalance strategic resources (beta)
 - fixed startBias for Vietnam, Armenia, Aztecs, Israel, Iroqez, Canada, Ukraine, Finland, Hitties, Sweden
-- Destroyer withdraws before melee combat with 100% chance
 - Missile can be intercepted, Nuclear Missile has 1 hp
 - Swiss Guard moved from Economic to Civil Service, Strength 25->20, Cost 65->52
 - 1 additional policy for the first to adopt the type of ideology
