@@ -18,6 +18,5 @@ Mod changes by DeStup:
 - 1 additional policy for the first to adopt the type of ideology
 - Project Utopia 30 -> 32
 - Hanse 25% -> 10%
-- 
 
 
