@@ -3067,13 +3067,14 @@
         "name": "BMPC Plant",
         "replaces": "Oil Refinery",
         "uniqueTo": "Brunei",
+        "requiredNearbyImprovedResources": ["Oil"],
         "gold": 3,
         "production": 5,
         "cost": 200,
         "hurryCostModifier": 25,
         "uniques": [
             "[+3 Production, +3 Gold] from [Oil] tiles [in this city]",
-            "Provides [2] [Oil]"
+            "Provides [4] [Oil]"
         ],
         "requiredTech": "Biology"
     },
