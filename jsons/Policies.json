@@ -486,7 +486,7 @@
             {
                 "name": "Consulates",
                 "uniques": [
-                    "Resting point for Influence with City-States is increased by [20]",
+                    "Allied City-States will occasionally gift Great People",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Cultural Diplomacy"],
@@ -496,11 +496,11 @@
             {
                 "name": "Patronage Complete",
                 "uniques": [
-                    "[+50]% [Culture] from City-States",
-                    "[+50]% [Faith] from City-States",
-                    "[+50]% [Food] from City-States",
-                    "[+50]% [Happiness] from City-States",
-                    "Allied City-States will occasionally gift Great People"
+                    "[+100]% [Culture] from City-States",
+                    "[+100]% [Faith] from City-States",
+                    "[+100]% [Food] from City-States",
+                    "[+100]% [Happiness] from City-States",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
                 ]
             }
         ]
