@@ -399,7 +399,7 @@
             {
                 "name": "Flourishing of the Arts",
                 "uniques": [
-                    "[+1 Culture] from every [Great Work]",
+                    "[+2 Culture] from every [Great Work]",
                     "[+1 Culture] from every [World Wonder]",
                     "Empire enters golden age",
                     "Provides [1] [Policies]"
@@ -422,7 +422,7 @@
                 "name": "Aesthetics Complete",
                 "uniques": [
                     "[+100]% Production when constructing [Archaeologist] units [in all cities]",
-                    "[+1 Culture] from every [Great Work]",
+                    "[+2 Culture] from every [Great Work]",
                     //need implement "Shows Hidden Antiquity Sites"
                     "Free Social Policy",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -988,7 +988,7 @@
             {
                 "name": "Creative Expression",
                 "uniques": [
-                    "[+2 Culture] from every [Great Work]",
+                    "[+4 Culture] from every [Great Work]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
