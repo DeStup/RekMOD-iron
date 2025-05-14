@@ -51,13 +51,5 @@
         "Can build [all] improvements at a [+50]% rate <for [{Major} {AI player}] Civilizations> <on [Emperor] difficulty>",
         "Can build [all] improvements at a [+75]% rate <for [{Major} {AI player}] Civilizations> <on [Immortal] difficulty>",
         "Can build [all] improvements at a [+100]% rate <for [{Major} {AI player}] Civilizations> <on [Deity] difficulty>",
-
-        //Like Lekmod. need to delete after update policy cost.
-        "[+10]% Culture cost of adopting new Policies <upon entering the [Medieval era]>",
-        "[+10]% Culture cost of adopting new Policies <upon entering the [Renaissance era]>",
-        "[+10]% Culture cost of adopting new Policies <upon entering the [Industrial era]>",
-        "[+10]% Culture cost of adopting new Policies <upon entering the [Modern era]>",
-        "[+10]% Culture cost of adopting new Policies <upon entering the [Atomic era]>",
-        "[+10]% Culture cost of adopting new Policies <upon entering the [Information era]>",
     ]
 }

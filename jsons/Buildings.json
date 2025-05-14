@@ -3681,7 +3681,7 @@
         "cost": 1500,
         "isNationalWonder": true,
         "uniques": [
-            "Only available <when above [30] [Policies]>",
+            "Only available <when above [32] [Policies]>",
             "Triggers a global alert upon build start",
             "Triggers a Cultural Victory upon completion",
             "Only available <when [Cultural] Victory is enabled>",
