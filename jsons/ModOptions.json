@@ -3,8 +3,8 @@
     {
         "maxLakeSize": 5,
         "riverCountMultiplier": 0.015,
-        "religionLimitBase": 1,
-        "religionLimitMultiplier": 0.5,
+        "religionLimitBase": 0,
+        "religionLimitMultiplier": 1,
         "unitSupplyPerPopulation": 10,
         "pantheonBase": 23,
         "pantheonGrowth": 0,

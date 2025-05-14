@@ -131,7 +131,7 @@
             "Minor deposits generated with weight [20] <in [{Featureless} {Grassland} {non-[Fresh Water]}] tiles>",
             "Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"
         ],
-        "majorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3},
+        "majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 4},
         "minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
     },
     {
@@ -157,7 +157,7 @@
             "Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
         ],
-        "majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 4},
+        "majorDepositAmount": {"sparse": 5, "default": 5, "abundant": 5},
         "minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
     },
     {
@@ -195,7 +195,7 @@
         "improvementStats": {"production": 3},
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
-            "Deposits in [Coast] tiles always provide [4] resources",
+            "Deposits in [Coast] tiles always provide [5] resources",
             "Guaranteed with Strategic Balance resource option",
             "Generated with weight [25] <in [{non-[Hill]} {Forest}] tiles>",
             "Generated with weight [65] <in [{non-[Hill]} {Marsh}] tiles>",
@@ -209,7 +209,7 @@
             "Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
             "Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"
         ],
-        "majorDepositAmount": {"sparse": 5, "default": 5, "abundant": 5},
+        "majorDepositAmount": {"sparse": 6, "default": 6, "abundant": 6},
         "minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
     },
     {
