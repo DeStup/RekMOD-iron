@@ -460,7 +460,7 @@
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+5 Culture] from every [Hermitage]"]
+        "uniques": ["[+2 Culture, +2 Science, +2 Gold, +2 Faith] from every [Great Work]"]
     },
     {
         "name": "Religious Center",
