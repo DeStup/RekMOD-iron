@@ -158,7 +158,7 @@
                     "[+33]% Production when constructing [Hermitage] wonders [in all cities]",
                     "[+33]% Production when constructing [National Intelligence Agency] wonders [in all cities]",
                     //"[+33]% Production when constructing [National Visitor's Center] wonders [in all cities]",
-                    
+
                     "[+15]% Production when constructing [Monument] buildings [in all cities]",
                     "[+15]% Production when constructing [Library] buildings [in all cities]",
                     "[+15]% Production when constructing [Colosseum] buildings [in all cities]",
@@ -403,6 +403,8 @@
                     "[+1 Culture] from every [World Wonder]",
                     "[+1 Gold] from every [Great Work]",
                     "[+1 Gold] from every [World Wonder]",
+                    "Provides [1] [Tourism] from every [Great Work]",
+                    "Provides [1] [Tourism] from every [World Wonder]",
                     "Empire enters golden age",
                     "Provides [1] [Policies]"
                 ],
@@ -414,6 +416,10 @@
                 "name": "Fine Arts",
                 "uniques": [
                     "Gain a free [Fine Art Specialist] [in all cities]",
+                    "[+20]% [Tourism] resource production <in cities with a [Amphitheater]>",
+                    "[+20]% [Tourism] resource production <in cities with a [Opera House]>",
+                    "[+20]% [Tourism] resource production <in cities with a [Museum]>",
+                    "[+20]% [Tourism] resource production <in cities with a [Broadcast Tower]>",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Cultural Exchange","Artistic Genius"],
@@ -425,6 +431,7 @@
                 "uniques": [
                     "[+100]% Production when constructing [Archaeologist] units [in all cities]",
                     "[+1 Culture] from every [Great Work]",
+                    "Provides [1] [Tourism] from every [Great Work]",
                     //need implement "Shows Hidden Antiquity Sites"
                     "Free Social Policy",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -992,6 +999,7 @@
                 "uniques": [
                     "[+2 Culture] from every [Great Work]",
                     "[+2 Gold] from every [Great Work]",
+                    "Provides [2] [Tourism] from every [Great Work]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1154,6 +1162,7 @@
                 "name": "Media Culture",
                 "uniques": [
                     "[+20]% [Culture] <in cities with a [Broadcast Tower]>",
+                    "[+34]% [Tourism] resource production <in cities with a [Broadcast Tower]>",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -1240,6 +1249,9 @@
                     "Gain [300] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
                     "Gain [300] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
                     "Gain [300] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
+                    "Instantly provides [300] [Tourism] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
+                    "Instantly provides [300] [Tourism] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
+                    "Instantly provides [300] [Tourism] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1317,6 +1329,9 @@
                     "[+5]% [Culture] <in cities with a [Barracks]>",
                     "[+5]% [Culture] <in cities with a [Armory]>",
                     "[+5]% [Culture] <in cities with a [Military Academy]>",
+                    "[+10]% [Tourism] resource production <in cities with a [Barracks]>",
+                    "[+10]% [Tourism] resource production <in cities with a [Armory]>",
+                    "[+10]% [Tourism] resource production <in cities with a [Military Academy]>",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -1375,6 +1390,7 @@
                 "name": "Cult of Personality",
                 "uniques": [
                     "[+20]% [Culture] [in all cities]",
+                    "[+50]% [Tourism] resource production [in all cities] <when at war>",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -1416,12 +1432,12 @@
         "era": "Modern era",
         "uniques": [
             "Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
-			// Humans are given an event to choose their Ideology.
+            // Humans are given an event to choose their Ideology.
             // AI will instead choose via the free policy once it's implemented correctly (sorry, I'm being lazy about adding it)
 
-			"Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
+            "Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
             "Triggers a [Ideology] event <for [AI player] Civilizations> <hidden from users>",
-			//"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
+            //"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
             "Unavailable"
         ],
         "policies": [
