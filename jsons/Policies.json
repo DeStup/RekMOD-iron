@@ -454,7 +454,7 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
+                    "Allied City-States provide [Science] equal to [100]% of what they produce for themselves",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Merchant Confederacy"],
@@ -500,7 +500,9 @@
                     "[+50]% [Faith] from City-States",
                     "[+50]% [Food] from City-States",
                     "[+50]% [Happiness] from City-States",
-                    "Allied City-States will occasionally gift Great People"
+                    "Allied City-States will occasionally gift Great People",
+                    "Military Units gifted from City-States start with [30] XP",
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
                 ]
             }
         ]
