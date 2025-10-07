@@ -2731,7 +2731,9 @@
         "uniqueName": "Great Expanse",
         "uniques": [
             "[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
-            "Gain control over [4] tiles [in this city] <upon founding a city>"
+            "Gain control over [4] tiles [in this city] <upon founding a city>",
+            // Start with Pathfinders instead of Warriors. While this works, it could possibly be exploited by buying Warriors before clicking end turn.
+            "Comment [Starts with Pathfinder instead of Warrior]"
         ],
         "cities": [
             "Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",

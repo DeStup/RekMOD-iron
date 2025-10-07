@@ -126,7 +126,8 @@
         "obsoleteTech": "Steam Power",
         "upgradesTo": "Airship",
         "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
-        "promotions": ["Ignore terrain cost"],
+        //temporally Survivalism I instead of Native Tongue
+        "promotions": ["Ignore terrain cost","Survivalism I"],
         "attackSound": "nonmetalhit"
     },
     {
