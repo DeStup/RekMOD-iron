@@ -401,6 +401,8 @@
                 "uniques": [
                     "[+1 Culture] from every [Great Work]",
                     "[+1 Culture] from every [World Wonder]",
+                    "[+1 Gold] from every [Great Work]",
+                    "[+1 Gold] from every [World Wonder]",
                     "Empire enters golden age",
                     "Provides [1] [Policies]"
                 ],
@@ -989,6 +991,7 @@
                 "name": "Creative Expression",
                 "uniques": [
                     "[+2 Culture] from every [Great Work]",
+                    "[+2 Gold] from every [Great Work]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1234,9 +1237,9 @@
                 "name": "Futurism",
                 "uniques": [
                     // Should be Tourism
-                    "Gain [300] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
-                    "Gain [300] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
-                    "Gain [300] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
+                    "Gain [500] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
+                    "Gain [500] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
+                    "Gain [500] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1311,6 +1314,9 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[+100]% XP gained from combat <for [All] units> <in [Friendly Land] tiles>",
+                    "[+5]% [Culture] <in cities with a [Barracks]>",
+                    "[+5]% [Culture] <in cities with a [Armory]>",
+                    "[+5]% [Culture] <in cities with a [Military Academy]>",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
