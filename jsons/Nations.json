@@ -2733,7 +2733,8 @@
             "[+15]% Strength <for [Military] units> <in [Friendly Land] tiles>",
             "Gain control over [4] tiles [in this city] <upon founding a city>",
             // Start with Pathfinders instead of Warriors. While this works, it could possibly be exploited by buying Warriors before clicking end turn.
-            "Comment [Starts with Pathfinder instead of Warrior]"
+            "Comment [Starts with Pathfinder instead of Warrior]",
+            "[Warrior] units gain the [[Pathfinder] ability] promotion <before turn number [1]> <hidden from users>"
         ],
         "cities": [
             "Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
