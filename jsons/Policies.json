@@ -748,6 +748,7 @@
         "era": "Ancient era",
         "uniques": [
             "Comment [Unlocks [Kremlin]]",
+            "Triggers a [Choose Order] event <hidden from users> <if no other Civilization has adopted this>",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>",
             "Only available <after adopting [Ideology]>"
@@ -966,6 +967,7 @@
         "era": "Ancient era",
         "uniques": [
             "Comment [Unlocks [Statue of Liberty]]",
+            "Triggers a [Choose Freedom] event <hidden from users> <if no other Civilization has adopted this>",
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>",
             "Only available <after adopting [Ideology]>"
@@ -1188,6 +1190,7 @@
         "era": "Ancient era",
         "uniques": [
             "Comment [Unlocks [Prora]]",
+            "Triggers a [Choose Autocracy] event <hidden from users> <if no other Civilization has adopted this>",
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>",
             "Only available <after adopting [Ideology]>"
