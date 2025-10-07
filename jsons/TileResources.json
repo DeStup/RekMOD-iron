@@ -132,7 +132,7 @@
             "Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"
         ],
         "majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 4},
-        "minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
+        "minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 2}
     },
     {
         "name": "Iron",
@@ -209,7 +209,7 @@
             "Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
             "Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"
         ],
-        "majorDepositAmount": {"sparse": 7, "default": 7, "abundant": 7},
+        "majorDepositAmount": {"sparse": 6, "default": 6, "abundant": 6},
         "minorDepositAmount": {"sparse": 3, "default": 3, "abundant": 3}
     },
     {
