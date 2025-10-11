@@ -2529,9 +2529,13 @@
         "innerColor": [8,25,115],
         "uniqueName": "Mare Clausum",
         "uniques": [
-            "Comment [+50% Yield from [Gold] from Trade Routes]",
-            "[+50]% Yield from every [Land Trade Route (Gold)] <hidden from users>",
-            "[+50]% Yield from every [Sea Trade Route (Gold)] <hidden from users>",
+            "Comment [[+4 Gold] from every Trade Route]",
+            "[+4 Gold] from every [Land Trade Route (Gold)] <hidden from users>",
+            "[+4 Gold] from every [Sea Trade Route (Gold)] <hidden from users>",
+            "[+4 Gold] from every [Land Trade Route (Food)] <hidden from users>",
+            "[+4 Gold] from every [Sea Trade Route (Food)] <hidden from users>",
+            "[+4 Gold] from every [Land Trade Route (Production)] <hidden from users>",
+            "[+4 Gold] from every [Sea Trade Route (Production)] <hidden from users>",
             "[+33]% Production when constructing [Caravan] units [in all cities]",
             "[+33]% Production when constructing [Cargo Ship] units [in all cities]"
         ],
