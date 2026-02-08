@@ -125,9 +125,10 @@
         "cost": 40,
         "obsoleteTech": "Steam Power",
         "upgradesTo": "Airship",
-        "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
-        //temporally Survivalism I instead of Native Tongue
-        "promotions": ["Ignore terrain cost","Survivalism I"],
+        "uniques": [
+            "May upgrade to [Composite Bowman] through ruins-like effects"
+        ],
+        "promotions": ["Ignore terrain cost", "Native Tongue"],
         "attackSound": "nonmetalhit"
     },
     {
@@ -286,7 +287,6 @@
         "movement": 4,
         "cost": 100,
         "uniques": [
-            "Cannot enter ocean tiles <before discovering [Astronomy]>",
             "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
@@ -320,8 +320,8 @@
         "requiredTech": "Sailing",
         "uniques": [
             "Cannot enter ocean tiles",
-            "Can move after attacking"
-            //"[-33]% Strength <vs cities> <when attacking>"
+            "Can move after attacking",
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Caravel",
         "obsoleteTech": "Astronomy",
@@ -338,8 +338,8 @@
         "requiredTech": "Sailing",
         "uniques": [
             "Cannot enter ocean tiles",
-            "Can move after attacking"
-            //"[-33]% Strength <vs cities> <when attacking>"
+            "Can move after attacking",
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Caravel",
         "obsoleteTech": "Astronomy",
@@ -356,8 +356,8 @@
         "requiredTech": "Sailing",
         "promotions": ["Extra Sight", "Supply"],
         "uniques": [
-            "Can move after attacking"
-            //"[-33]% Strength <vs cities> <when attacking>"
+            "Can move after attacking",
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Caravel",
         "obsoleteTech": "Astronomy",
@@ -371,8 +371,8 @@
         "uniques": [
             "Can move after attacking",
             "Unbuildable",
-            "Unable to pillage tiles"
-            //"[-33]% Strength <vs cities> <when attacking>"
+            "Unable to pillage tiles",
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "upgradesTo": "Privateer",
         "attackSound": "nonmetalhit"
@@ -1585,8 +1585,7 @@
         "uniques": [
             "[+1] Sight",
             "Withdraws before melee combat <with [80]% chance>",
-            "Can move after attacking",
-            "Gain [150] [Gold]"
+            "Can move after attacking"
         ],
         "hurryCostModifier": 30,
         "attackSound": "cannon"
@@ -3201,10 +3200,8 @@
         "cost": 200,
         "requiredTech": "Archaeology",
         "uniques": [
-			"Can build [Archaeological Dig] improvements on tiles",
-			"Only available <in cities with a [University]>",
-			"Uncapturable",
-			"Unavailable <for [City-States] Civilizations>",
+            "Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
+            "Only available <if [University] is constructed>",
             "Cannot be purchased"
         ]
     },
