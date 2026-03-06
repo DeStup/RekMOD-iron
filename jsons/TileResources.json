@@ -97,7 +97,7 @@
         "food": 1,
         "improvementStats": {"food": 1},
         "improvement": "Fishing Boats",
-        "uniques": ["Generated on every [5] tiles <in [{Featureless} {Coast}] tiles>"]
+        "uniques": ["Generated on every [6] tiles <in [{Featureless} {Coast}] tiles>"]
     },
     {
       "name": "Hardwood",
