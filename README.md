@@ -16,9 +16,6 @@ Fork Rekmod with changes for the multiplayer games
 - rebalance strategic resources
 - fixed startBias for Vietnam, Armenia, Aztecs, Israel, Iroqez, Canada, Ukraine, Finland, Hitties, Sweden
 
-#### Unit Changes
-- Swiss Guard moved from Economic to Civil Service, Strength 25->20, Cost 65->52
-
 #### Building Changes
 - Hanse 25% -> 10%
 - BMPC Plant requires improved resource, provides 4 Oil
