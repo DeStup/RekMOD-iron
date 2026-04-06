@@ -126,14 +126,16 @@
         "innerColor": [146,221,9],
         "uniqueName": "Trade Caravans",
         "uniques": [
-            "Comment [[+1 Gold] from every Trade Route]",
-            "[+1 Gold] from every [Land Trade Route (Food)] <hidden from users>",
-            "[+1 Gold] from every [Land Trade Route (Production)] <hidden from users>",
-            "[+1 Gold] from every [Land Trade Route (Gold)] <hidden from users>",
-            "[+1 Gold] from every [Sea Trade Route (Food)] <hidden from users>",
-            "[+1 Gold] from every [Sea Trade Route (Production)] <hidden from users>",
-            "[+1 Gold] from every [Sea Trade Route (Gold)] <hidden from users>",
-            "[+100]% [Oil] resource production"
+            "[+100]% [Oil] resource production",
+            "[+1 Gold, +1 Culture] from every [Censer Maker]",
+            "[+1 Gold, +1 Culture] from every [Gemcutter]",
+            "[+1 Gold, +1 Culture] from every [Grocer]",
+            "[+1 Gold, +1 Culture] from every [Brewery]",
+            "[+1 Gold, +1 Culture] from every [Mint]",
+            "[+1 Gold, +1 Culture] from every [Circus] <within [3] tiles of a [{your} {Ivory}]>",
+            "[+1 Gold, +1 Culture] from every [Stone Works] <within [3] tiles of a [{your} {Quarry resource}]>",
+            "[+1 Gold, +1 Culture] from every [Lighthouse] <within [3] tiles of a [{your} {Water} {Luxury}]>",
+            "[+1 Gold, +1 Culture] from every [Factory] <within [3] tiles of a [{your} {Rubber}]>"
         ],
         "cities": [
             "Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -438,10 +440,10 @@
         "innerColor": [38, 41, 80],
         "uniqueName": "The Great Trek",
         "uniques": [
-            "[+1 Food] from every [Farm] <with [3] to [6] neighboring [Farm] tiles>",
-            "[+1 Gold] from every [Farm] <with [4] to [6] neighboring [Farm] tiles>",
-            "[+1 Production] from every [Farm] <with [5] to [6] neighboring [Farm] tiles>",
-            "[+1 Culture, +1 Science] from every [Farm] <with [6] to [6] neighboring [Farm] tiles>"
+            "[+1 Food] from every [Farm] <with [2] to [6] neighboring [Farm] tiles>",
+            "[+1 Gold] from every [Farm] <with [3] to [6] neighboring [Farm] tiles>",
+            "[+1 Production] from every [Farm] <with [4] to [6] neighboring [Farm] tiles>",
+            "[+1 Culture, +1 Science] from every [Farm] <with [5] to [6] neighboring [Farm] tiles>"
         ],
         "cities": [ //Tweebuffelsmeteenskootmorsdoodgeskietfontein
             "Pretoria","Bloemfontein","Johannesburg","Pietermaritzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof",
@@ -450,6 +452,40 @@
         ],
         "spyNames": [
             "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
+        ]
+    },
+	{
+        "name": "Bolivia",
+        "leaderName": "Tata Balzu",
+        "adjective": ["Bolivian"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Cultural",
+        "startIntroPart1": "Greetings to you, Manuel Isidoro Belzu. You led the multitudinary Bolivian civilization and were part of the armies that secured the Independency of South America. Bolivia is a country with deep diversity, both cultural and geographical. This setting, however, led to many clashes between every culture and social class in the land, making Bolivia a land both of revolutions and discrimination. However, it also led to many unions, represented by the religious syncretism and the folklorical festivities.",
+        "startIntroPart2": "In your time, you managed to give a blow against the discrimination of the ruling oligarchy, by giving the native people rights they lacked even after. Bolivia still lives in the conflicts of class and racial discrimination, and humble people still have to fight for their rights. But they still call for a leader. Will you grant them the chance to live well together? Will you build a civilization that will stand the test of time?",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "You treacherous oligarchy pig!",
+        "introduction": "Greetings. Welcome to the multitudinary lands of Bolivia. I'm President 'Tata' Belzu, and I hope you won't add up to the conflicts here, and rather be a friend of our Nation.",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+        "outerColor": [188, 27, 10],
+        "innerColor": [123, 207, 0],
+        "uniqueName": "Revolución Nacional",
+        "uniques": [
+            "Gain a free [boliviaGreatArtistAbility] [in capital] <upon expending a [Great Artist] unit> <hidden from users>",
+            "Gain a free [boliviaGreatWriterAbility] [in capital] <upon expending a [Great Writer] unit> <hidden from users>",
+			"Comment [Expending a [Great Artist] improves the yield of [Mines] with +1 [Production]]",
+			"Comment [Expending a [Great Writer] improves the yield of [Mines] with +1 [Food]]",
+			"Comment [These yields will not stack, but will swap each other out instead]"
+        ],
+        "cities": [
+            "Sucre","La Paz","Santa Cruz","Cochabamba","Oruro","Potosí","Tarija","Antofagasta","Montero","Trinidad",
+            "Riberalta","Warnes","La Guardia","Viacha","Calama","Yacuíba","Cobija","Camiri","Guayaramerín","Villazón",
+            "Villamontes","Bermejo","Tupiza","Llallagua","San Julián","Huanuni","Punata","Uyuni","Mejillones"
+        ],
+        "spyNames": [
+            "Olaneta","Ayala","Ballivian","Pinto","Paredes","Lanza","Perez","Azurduy","Pacheco","Morales"
         ]
     },
     {
@@ -471,6 +507,7 @@
         "innerColor": [63,106,64],
         "uniqueName": "Carnival",
         "uniques": [
+            //UA: Tourism modifier during Golden Ages ( 100% )
             "[Great Artist] is earned [100]% faster <during a Golden Age>",
             "[Great Writer] is earned [100]% faster <during a Golden Age>",
             "[Great Musician] is earned [100]% faster <during a Golden Age>",
@@ -764,7 +801,6 @@
         "uniqueName": "Independence of the People",
         "uniques": [
             "[+1 Food] from every [Lumber mill]",
-            "[+1 Gold] from every [Lumber mill]",
             "[+1 Science] from every [Lumber mill] <after discovering [Chemistry]>"
         ],
         "cities": [
@@ -1805,7 +1841,6 @@
         "innerColor": [220,190,92],
         "uniqueName": "Macedonian Discipline",
         "uniques": [
-            "Free [Hetairoi] appears <upon discovering [Horseback Riding] technology>",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Military Academy]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]"
@@ -1914,7 +1949,7 @@
         "uniques": [
             "[Land] units gain the [Dharma] promotion <hidden from users>",
             "[Water] units gain the [Dharma] promotion <hidden from users>",
-            "Comment [Non-Air Units receive a -10% Combat Penalty when attacking, and a +10% Combat Bonus when defending]"
+            "Comment [Non-Air Units receive a +20% Combat Bonus when defending]"
         ],
         "cities": [
             "Pataliputra","Sarnath","Ujjain","Mathura","Indraprastha","Suvarnagiri","Tamralipti","Varanasi","Lumbini","Toshali",
@@ -2131,6 +2166,38 @@
         ],
         "spyNames": [
             "Zahir","Babur","Jalal","Faaiz","Qutb","Humayun","Mirza","Muhy","Shere","Gauhar"
+        ]
+    },
+	 {
+        "name": "Nabataea",
+        "leaderName": "Aretas III",
+        "adjective": ["Nabataean"],
+        "startBias": ["Desert"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+        "outerColor": [158, 99, 87],
+        "innerColor": [46, 30, 17],
+        "uniqueName": "Spring of Moses",
+        "uniques": [
+            "Comment [+1 [Food] from Fresh Water [Farm] tiles at discovering [Mathematics], instead of [Civil Service]]",
+            "[+1 Food] from [{Fresh Water} {Farm}] tiles [in all cities] <after discovering [Mathematics]>",
+            "[-1 Food] from [{Fresh Water} {Farm}] tiles [in all cities] <after discovering [Civil Service]>"
+        ],
+        "cities": [
+            "Petra","Bostra","Hegra","Edoba","Leuke","Mampsis","Sela","Elusa","Jenysos","Gaza",
+            "Philadelphia","Sia","Madaba","Soada","Augustopolis","Avdat","Punon","Zoara","Nessana","Sobara",
+            "Iram","Teima","Gypsaria","Auara","Nemara","Adraa","Rhinocoluna","Damascus","Pharan","Bethoro"
+        ],
+        "spyNames": [
+            "Rabbel","Obodas","Malichus","Avdomanis","Pavivlos","Shaqilat","Galimat","Gamlat","Haganu","Khaldw"
         ]
     },
     {
@@ -2667,7 +2734,15 @@
             "[+1 Production] from every [Strategic resource]",
             "[+100]% [Horses] resource production",
             "[+100]% [Iron] resource production",
-            "[+100]% [Uranium] resource production"
+            "[+100]% [Uranium] resource production",
+            "Comment [All Strategic resources may be improved in 1 turn]",
+            "Can build [Mine] improvements at a [+500]% rate <in [Iron] tiles> <hidden from users>",
+            "Can build [Pasture] improvements at a [+500]% rate <in [Horses] tiles> <hidden from users>",
+            "Can build [Mine] improvements at a [+500]% rate <in [Aluminum] tiles> <hidden from users>",
+            "Can build [Oil well] improvements at a [+500]% rate <in [Oil] tiles> <hidden from users>",
+            "Can build [Offshore Platform] improvements at a [+500]% rate <in [Oil] tiles> <hidden from users>",
+            "Can build [Mine] improvements at a [+500]% rate <in [Coal] tiles> <hidden from users>",
+            "Can build [Mine] improvements at a [+500]% rate <in [Uranium] tiles> <hidden from users>"
         ],
         "cities": [
             "Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
