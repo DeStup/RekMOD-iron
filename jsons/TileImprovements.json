@@ -74,7 +74,7 @@
         ],
         "shortcutKey": "T"
     },
-    
+
     // Resource-specific
     {
         "name": "Camp",
@@ -197,13 +197,13 @@
     {
         "name": "Archaeological Dig",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
-		"turnsToBuild": 4,
+        "turnsToBuild": 4,
         "culture": 6,
         "gold": 2,
         "science": 2,
         "uniques": [
-			"Only available <for [Archaeologist] units>",
-			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles>",
+            "Only available <for [Archaeologist] units>",
+            "Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles>",
             "Can be built outside your borders",
             "Can only be built to improve a resource",
             "Removes removable features when built",
@@ -341,7 +341,7 @@
     {
         "name": "Railroad",
         "terrainsCanBeBuiltOn": ["Land"],
-        "turnsToBuild": 4,
+        "turnsToBuild": 0,
         "techRequired": "Railroads",
         "uniques": [
             "Can be built outside your borders",
@@ -354,7 +354,7 @@
             }
         ]
     },
-    
+
     // Removals
     // Any improvement that starts with 'Remove ' is automatically changed into
     // the improvement that removes the terrainfeature after it.
