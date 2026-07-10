@@ -529,12 +529,12 @@
         "type": "Enhancer",
         "uniques": ["[+6 Production, +6 Gold] from every [Grand Temple]"]
     },
-    {
+/*    {
         "name": "Just War",
         "type": "Enhancer",
         "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
         // TODO: Should only be enemy territory of cities that follow this religion
-    },
+    },*/
     {
         "name": "Karma",
         "type": "Enhancer",
