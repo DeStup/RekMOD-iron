@@ -10,11 +10,11 @@ Fork Rekmod with changes for the multiplayer games
 - NEW Multiplayer speed (scienceCostModifier and cultureCostModifier 0.50/0.50)
 - NEW Solo speed (scienceCostModifier and cultureCostModifier 0.50/0.50), use it for solo games.
 
-- 1 additional policy for the first to adopt the type of ideology
-- Project Utopia 30 -> 32
+- Project Utopia 30 -> 36
 - removed barbarian bonus on King+
 - rebalance strategic resources
 - fixed startBias for Vietnam, Armenia, Aztecs, Israel, Iroqez, Canada, Ukraine, Finland, Hitties, Sweden
+- Disabled belief "Just war"
 
 #### Building Changes
 - Hanse 25% -> 10%
