@@ -19,4 +19,5 @@ Fork Rekmod with changes for the multiplayer games
 #### Building Changes
 - Hanse 25% -> 10%
 - BMPC Plant requires improved resource, provides 4 Oil
+- Constabulary / Convict Penitentiary: counter-intelligence spies in the city gain +1 effective level (capped at maxSpyRank; requires Unciv with this unique)
 
