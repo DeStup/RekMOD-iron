@@ -13,7 +13,7 @@ Fork Rekmod with changes for the multiplayer games
 - Project Utopia 30 -> 36
 - removed barbarian bonus on King+
 - rebalance strategic resources
-- `Civ5-style world luxury targets` ModOptions unique (requires Unciv with this unique): Tops up random luxuries to Civ5 AssignStartingPlots world targets (floor; never fewer than Unciv default)
+- `minimumWorldLuxuries*` ModConstants (requires Unciv with these fields): tops up random luxuries to world floors 35/60/60/88/112 by map size; never fewer than Unciv default
 - fixed startBias for Vietnam, Armenia, Aztecs, Israel, Iroqez, Canada, Ukraine, Finland, Hitties, Sweden
 - Disabled belief "Just war"
 
