@@ -16,7 +16,8 @@
     "uniques":
             [
                 "Allow raze capital",
-                "Allow raze holy city"
+                "Allow raze holy city",
+                "Civ5-style map resource generation"
             ],
     "isBaseRuleset": true
 }

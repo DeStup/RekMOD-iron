@@ -13,6 +13,7 @@ Fork Rekmod with changes for the multiplayer games
 - Project Utopia 30 -> 36
 - removed barbarian bonus on King+
 - rebalance strategic resources
+- `Civ5-style map resource generation` ModOptions unique (requires Unciv with this unique): Civ5 luxury world targets + denser bonus/minor strategic placement
 - fixed startBias for Vietnam, Armenia, Aztecs, Israel, Iroqez, Canada, Ukraine, Finland, Hitties, Sweden
 - Disabled belief "Just war"
 
