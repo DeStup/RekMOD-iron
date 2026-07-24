@@ -14,6 +14,7 @@ Fork Rekmod with changes for the multiplayer games
 - removed barbarian bonus on King+
 - rebalance strategic resources
 - `minimumWorldLuxuries*` ModConstants (requires Unciv with these fields): tops up random luxuries to world floors 35/60/60/88/112 by map size; never fewer than Unciv default
+- `City-states found first city in place` ModOptions unique (requires Unciv with this unique): CS settlers found on start tile instead of wandering
 - fixed startBias for Vietnam, Armenia, Aztecs, Israel, Iroqez, Canada, Ukraine, Finland, Hitties, Sweden
 - Disabled belief "Just war"
 
