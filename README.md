@@ -13,10 +13,10 @@ Fork Rekmod with changes for the multiplayer games
 - Project Utopia 30 -> 36
 - removed barbarian bonus on King+
 - rebalance strategic resources
+- `minimumWorldLuxuries*` ModConstants (requires Unciv https://github.com/yairm210/Unciv/pull/15267 ? do not merge until that Unciv PR lands): world luxury floors 35/60/60/88/112 by map size
 - fixed startBias for Vietnam, Armenia, Aztecs, Israel, Iroqez, Canada, Ukraine, Finland, Hitties, Sweden
 - Disabled belief "Just war"
 
 #### Building Changes
 - Hanse 25% -> 10%
 - BMPC Plant requires improved resource, provides 4 Oil
-
