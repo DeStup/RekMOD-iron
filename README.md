@@ -13,6 +13,7 @@ Fork Rekmod with changes for the multiplayer games
 - Project Utopia 30 -> 36
 - removed barbarian bonus on King+
 - rebalance strategic resources
+- City-states settle first city in place: Unciv default since https://github.com/yairm210/Unciv/pull/15268 (no Iron ModOptions unique; do NOT add `City-states search for first city location` — that is the opt-out)
 - fixed startBias for Vietnam, Armenia, Aztecs, Israel, Iroqez, Canada, Ukraine, Finland, Hitties, Sweden
 - Disabled belief "Just war"
 - Maritime city-states: `Start bias [Coast]` on CityStateType (requires Unciv ≥4.21.4 / #15271)
@@ -20,5 +21,5 @@ Fork Rekmod with changes for the multiplayer games
 #### Building Changes
 - Hanse 25% -> 10%
 - BMPC Plant requires improved resource, provides 4 Oil
-- Constabulary / Convict Penitentiary: `Spies in [in this city] cities act as though they have [+1] levels for [Counter-intelligence]` (requires Unciv with this unique)
-
+- feature/cs-settle-in
+- Constabulary / Convict Penitentiary: `Spies in [in this city] cities act as though they have [+1] levels for [Counter-intelligence]`
