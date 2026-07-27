@@ -15,6 +15,7 @@ Fork Rekmod with changes for the multiplayer games
 - rebalance strategic resources
 - fixed startBias for Vietnam, Armenia, Aztecs, Israel, Iroqez, Canada, Ukraine, Finland, Hitties, Sweden
 - Disabled belief "Just war"
+- Maritime city-states: `Start bias [Coast]` on CityStateType (requires Unciv ≥4.21.4 / #15271)
 
 #### Building Changes
 - Hanse 25% -> 10%
