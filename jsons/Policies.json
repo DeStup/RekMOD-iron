@@ -179,7 +179,7 @@
         "era": "Ancient era",
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>",
-            "Earn [100]% of killed [Military] unit's [Strength] as [Culture] <before adopting [Iron Fist]>",
+            "Earn [100]% of killed [Military] unit's [Strength] as [Culture] <before adopting [Ideology]>",
             "Comment [Unlocks [Temple of Artemis]]",
             "Provides [1] [Policies]"
         ],
@@ -188,7 +188,7 @@
                 "name": "Warrior Code",
                 "uniques": [
                     "[2] free [Warrior] units appear",
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold] <before adopting [Iron Fist]>",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold] <before adopting [Ideology]>",
                     "[4] units cost no maintenance",
                     "Provides [1] [Policies]"
                 ],
@@ -202,8 +202,8 @@
                     "[+1 Production, +1 Gold, +1 Culture] from every [Armory]",
                     "[+1 Production, +1 Gold, +1 Culture] from every [Barracks]",
                     "[+100]% Production when constructing [Barracks] buildings [in all cities]",
-                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
+                    "[+50]% Production when constructing [Armory] buildings [in all cities]",
+                    "[+50]% Production when constructing [Military Academy] buildings [in all cities]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -249,8 +249,10 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "[+10]% [Food] [in all cities]",
-                    "Earn [100]% of killed [Military] unit's [Strength] as [Science] <before adopting [Iron Fist]>",
+                    "[+1 Food] from every [Barracks]",
+                    "[+2 Food] from every [Armory]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Science] <before adopting [Ideology]>",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
