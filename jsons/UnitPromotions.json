@@ -792,10 +792,10 @@
     {
         "name": "Heavy Charge",
         "uniques": [
-            "[+50]% Strength <when attacking>"
+            "[+50]% Strength <when attacking> <when the enemy cannot fall back>",
+            "Forces the enemy to fall back when dealing more melee damage"
         ]
     },
-    //need new uniq for "enemy Units will retreat if they receive more damage than this Unit; this Unit deals +50% damage to defenders incapable of retreat"
     {
         "name": "Bonus For Attacking",
         "uniques": [
