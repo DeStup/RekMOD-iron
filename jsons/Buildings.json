@@ -3583,14 +3583,14 @@
         ],
         "requiredTech": "Atomic Theory"
     },
-    /*{
+    {
         "name": "Airport",
         "cost": 400,
         "maintenance": 5,
         "hurryCostModifier": 0,
         "requiredTech": "Radar",
-        "uniques": ["[+1 Culture] from every [Great Work] <in this city>","[+25]% [Culture] from every [Improvement] <in this city>"]
-    },*/
+        "uniques": ["Allows airlifting"]
+    },
     {
         "name": "CN Tower",
         "isWonder": true,
