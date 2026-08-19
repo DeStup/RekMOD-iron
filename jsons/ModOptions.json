@@ -11,7 +11,12 @@
         "tributeGlobalModifier": 50,
         "tributeLocalModifier": 150,
         "scoreFromPopulation": 4,
-        "scoreFromWonders": 25
+        "scoreFromWonders": 25,
+        "minimumWorldLuxuriesTiny": 35,
+        "minimumWorldLuxuriesSmall": 60,
+        "minimumWorldLuxuriesMedium": 60,
+        "minimumWorldLuxuriesLarge": 88,
+        "minimumWorldLuxuriesHuge": 112
     },
     "uniques":
             [
@@ -20,3 +25,4 @@
             ],
     "isBaseRuleset": true
 }
+
