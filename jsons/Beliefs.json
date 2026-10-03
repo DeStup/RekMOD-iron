@@ -503,12 +503,12 @@
     },
 
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
-    {
+/*    {
         "name": "Defender of the Faith",
         "type": "Enhancer",
         "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
         // TODO: Should only be friendly territory of cities that follow this religion
-    },
+    },*/
     {
         "name": "Dharma",
         "type": "Enhancer",
