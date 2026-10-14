@@ -1101,13 +1101,13 @@
         "unitTypes": ["Sword","Gunpowder"]
     },
     // section Madegascar/////
-    {
-        "name": "Sampy",
-        "uniques": [
-            "Comment [Gains a random special promotion upon attacking]",
-            "Triggers a [Sampy] event <upon entering combat> <when attacking> <hidden from users>"
-        ]
-    },
+	{
+		"name": "Sampy",
+		"uniques": [
+			"Comment [Gains a random special promotion upon attacking]",
+			"Triggers a [Sampy] event <upon entering combat> <when attacking> <for units without [Kelimazala]> <for units without [Ramahavaly]> <for units without [Manjakatsiroa]> <for units without [Mosasa]> <for units without [Rafantaka]> <for units without [Rabehaza]> <for units without [Ambohimanambola]> <for units without [Sehatra]> <for units without [Lambamena]> <for units without [Razana]> <for units without [Masina]> <hidden from users>"
+		]
+	},
     {
         "name": "Kelimazala",
         "uniques": [
@@ -1414,14 +1414,5 @@
         ],
         "prerequisites": ["Pünktlichkeit"],
         "unitTypes": ["Sword","Mounted","Scout","Siege","Archery","Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
-    },
-    // Pathfinder: Native Tongue
-    {
-        "name": "[Pathfinder] ability",
-        "uniques": [
-            "[This Unit] is destroyed",
-            "Free [Pathfinder] appears",
-            "Will not be displayed in Civilopedia"
-        ]
     }
 ]
