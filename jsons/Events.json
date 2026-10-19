@@ -270,12 +270,10 @@
                 ]
             },
             {
-                "text": "Patriotic War",
+                "name": "Skyscrapers",
                 "uniques": [
-                    "Adopt [Patriotic War]",
-                    "Comment [[[+10]% Strength] [for [Military] units] [when fighting in [Friendly Land] tiles]]",
-                    "Comment [[[+50]% XP gained from combat] [for [non-[Air]] units]]",
-					"Only available <before adopting [Patriotic War]>"
+                    "[Gold] cost of purchasing [All] buildings [-50]%",
+                    "Only available <before adopting [Skyscrapers]>"
                 ]
             },
             {
