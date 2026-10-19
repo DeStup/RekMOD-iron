@@ -272,6 +272,7 @@
             {
                 "text": "Skyscrapers",
                 "uniques": [
+                    "Adopt [Skyscrapers]",
                     "[Gold] cost of purchasing [All] buildings [-50]%",
                     "Only available <before adopting [Skyscrapers]>"
                 ]
