@@ -14,7 +14,7 @@
             "Free [Worker] found in the ruins",
             "Only available <for [non-[Ignores ruins]] units>"
         ],
-        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity", "AI"]
+        "excludedDifficulties": ["Prince", "AI"]
     },
     {
         "name": "joinSettler",
@@ -23,7 +23,7 @@
             "Free [Settler] found in the ruins",
             "Only available <for [non-[Ignores ruins]] units>"
         ],
-        "excludedDifficulties": ["Warlord", "Prince", "King", "Emperor", "Immortal", "Deity", "AI"]
+        "excludedDifficulties": ["Warlord", "Prince", "AI"]
     },
     {
         "name": "freePop",
