@@ -983,6 +983,20 @@ UnitIcons/Heavy Cruiser
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Hetairoi
+  rotate: false
+  xy: 212, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hetairoi
+  rotate: false
+  xy: 212, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/Khevsur
   rotate: false
   xy: 836, 628
@@ -1091,20 +1105,6 @@ UnitPromotionIcons/Epic of Battle
 UnitPromotionIcons/Fast Swimmer
   rotate: false
   xy: 420, 1668
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Hetairoi
-  rotate: false
-  xy: 212, 212
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Hetairoi
-  rotate: false
-  xy: 212, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -3375,20 +3375,6 @@ TileSets/5Hex/Tiles/Tobacco+Plantation
   orig: 120, 114
   offset: 0, 0
   index: -1
-TileSets/5Hex/Units/Airship
-  rotate: false
-  xy: 476, 1885
-  size: 32, 40
-  orig: 32, 40
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Airship
-  rotate: false
-  xy: 476, 1885
-  size: 32, 40
-  orig: 32, 40
-  offset: 0, 0
-  index: -1
 TileSets/5Hex/Units/Apedemaks Bow
   rotate: false
   xy: 1964, 1542
@@ -3919,20 +3905,6 @@ TileSets/5Hex/Units/Ngao Mbeba-3
   xy: 1126, 832
   size: 80, 70
   orig: 80, 70
-  offset: 0, 0
-  index: -1
-TileSets/5Hex/Units/Pestininkas
-  rotate: false
-  xy: 1685, 17
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Pestininkas
-  rotate: false
-  xy: 1685, 17
-  size: 32, 28
-  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/5Hex/Units/Pioneer
@@ -5006,6 +4978,20 @@ TileSets/FantasyHex/Tiles/Tundra+Forest+Antiquity Site
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Airship
+  rotate: false
+  xy: 476, 1885
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Units/Airship
+  rotate: false
+  xy: 476, 1885
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Anti-Tank Rifle
   rotate: false
   xy: 132, 1454
@@ -5163,6 +5149,20 @@ TileSets/FantasyHex/Units/Nelayan
 TileSets/FantasyHex/Units/Ngao Mbeba
   rotate: false
   xy: 1464, 16
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pestininkas
+  rotate: false
+  xy: 1685, 17
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/5Hex/Units/Pestininkas
+  rotate: false
+  xy: 1685, 17
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -5923,6 +5923,20 @@ UnitIcons/Siege Tower
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Ski Infantry
+  rotate: false
+  xy: 564, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ski Infantry
+  rotate: false
+  xy: 564, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Winged Hussar
   rotate: false
   xy: 1644, 1512
@@ -6096,20 +6110,6 @@ UnitPromotionIcons/Restlessness
   xy: 1515, 1242
   size: 50, 50
   orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ski Infantry
-  rotate: false
-  xy: 564, 1404
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ski Infantry
-  rotate: false
-  xy: 564, 1404
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Spear Throw
